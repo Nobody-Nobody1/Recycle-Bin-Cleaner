@@ -1,0 +1,1 @@
+- Best if used with Task Scheduler with the path to python.exe set as the program to run and the path to main.py as a argument to automate cleaning the bin at any custom moment as a task

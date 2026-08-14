@@ -6,7 +6,7 @@ def empty_recycle_bin(confirm=True):
     try:
 
         # Empty the Recycle Bin without showing progress or sound
-        winshell.recycle_bin().empty(confirm=True, show_progress=False, sound=False)
+        winshell.recycle_bin().empty(confirm=False, show_progress=False, sound=False)
         print("Recycle Bin emptied successfully.")
 
     except winshell.x_winshell as e:
