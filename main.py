@@ -2,7 +2,7 @@ import winshell
 import ctypes
 import sys
 
-def empty_recycle_bin(confirm=True):
+def empty_recycle_bin():
     try:
 
         # Empty the Recycle Bin without showing progress or sound
@@ -29,4 +29,4 @@ if __name__ == "__main__":
     if not is_admin:
         print("Warning: You are not running as administrator. Some items may not be deleted.")
 
-    empty_recycle_bin(confirm=True)
+    empty_recycle_bin()
