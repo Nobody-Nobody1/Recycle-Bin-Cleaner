@@ -1,0 +1,2 @@
+[2026-08-19 12:14:48.644951] Warning: Not running as administrator. Some items may not be deleted.
+[2026-08-19 12:14:58.802124] Recycle Bin emptied successfully.
